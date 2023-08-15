@@ -2,12 +2,12 @@ function generarNumeroAleatorio(){
 
     // Se le comenta la usuario lo que vamos a realizar
     alert('Consigna: Elegí 2 números y te mencionare algún número dentro del rango de ambos');
-    // Se le pide al usuario el primer número
+    // Se le pide al usuario el número inicial
     const numeroInicial = parseInt(prompt('Ingrese el número inicial'));
-    // Se le pide al usuario el segundo número
+    // Se le pide al usuario el número final
     const numeroFinal = parseInt(prompt('Ingrese el número final'));
 
-    // Se coteja que este ingresando números válidos y que el primero sea mayor que el segundo
+    // Observo que esté ingresando números válidos y que el primero sea mayor que el segundo
     if (isNaN(numeroInicial ) || isNaN(numeroFinal)) {
         alert('Por favor ingresa valores numéricos válidos');
         return;
